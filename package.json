@@ -1,0 +1,23 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "Free Code Camp image search challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StonePSU/image-search.git"
+  },
+  "author": "Matt Krell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StonePSU/image-search/issues"
+  },
+  "homepage": "https://github.com/StonePSU/image-search#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.21"
+  }
+}
