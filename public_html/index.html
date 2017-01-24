@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FreeCodeCamp Image Search</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="text-center">Image Search Abstraction Layer</h2>
+            <h3 class="text-center">By Matt Krell</h3>
+            <div class="well">
+                <p>This app is part of the challenges for the FreeCodeCamp back-end certification.  The goal is to allow a user to search for images as well as view the recent search history.</p>
+                <p>The following User Stories have been implemented:
+                    <ul>
+                        <li><strong>User Story #1: </strong>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.  The following example searches for images related to football:<br>
+                        <code><script type="text/javascript">document.write(window.location + "api/imagesearch/football");</script></code><p></p>
+                        </li>
+                        <li><strong>User Story #2: </strong>I can paginate through the responses by adding a <code>?offset=2</code> parameter to the URL.</li>
+                        <li><strong>User Story #3: </strong> I can get a list of the most recently submitted search strings.  To do this, use the URL shown below:
+                        <br><code><script type="text/javascript">document.write(window.location + "api/history/imagesearch");</script></code><p></p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

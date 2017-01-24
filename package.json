@@ -18,6 +18,8 @@
   "homepage": "https://github.com/StonePSU/image-search#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "got": "^6.7.1",
+    "moment": "^2.17.1",
     "mongodb": "^2.2.21"
   }
 }
